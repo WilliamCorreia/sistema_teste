@@ -1,10 +1,10 @@
 jQuery("document").ready(function($){
-var nav = $('.conteudo-menu');
+var nav = $('.nav');
 $(window).scroll(function () {
 if ($(this).scrollTop() > 168) {
-nav.addClass("menu-fixo");
+nav.addClass("menu-fixo row container");
 } else {
-nav.removeClass("menu-fixo");
+nav.removeClass("menu-fixo row container");
 }
 });
 });

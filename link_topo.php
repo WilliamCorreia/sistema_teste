@@ -22,11 +22,12 @@ if (isset($_GET["action"]) AND $_GET["action"] == "sair") {
 		<a href="?action=sair"> <button class="btn btn-danger pull-right col-xs-2">  Sair  </button> </a>
 			<img src="css/imagens/logo_topo.png" class="img-responsive" />
 
-			 <div class="conteudo-menu">
+			 
+			 		
 			 		
 			
-			            <ul class="nav nav-tabs nav-justified">
-			              <li role="presentation" class="active"><a href="registrado.php?" target="_self">Início</a></li>
+			            <ul class="nav nav-justified nav-pills">
+			              <li role="presentation"><a href="registrado.php?" target="_self">Início</a></li>
 			              <li role="presentation"><a href="registro.php?" target="_self">Inserir Registro</a></li>
 			              <li role="presentation"><a href="relatorio.php?" target="_self">Relatórios</a></li>
 			              <li role="presentation"><a href="downloads.php?" target="_self">Downloads</a></li>
@@ -34,7 +35,7 @@ if (isset($_GET["action"]) AND $_GET["action"] == "sair") {
 			            </ul>
 			            
 			           
-			            </div>
+			         
 		</div>
 	</div>
 </div>
