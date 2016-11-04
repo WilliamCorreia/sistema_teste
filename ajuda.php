@@ -21,6 +21,7 @@
 
 <p ng-show="myVar">
 1 - INICIO: {{iniciar}}
+<img src="css/imagens/ajuda_imgs/ajuda.png" class="img-responsive" />
 </p>
 <br>
 <br>
