@@ -21,9 +21,14 @@
 <?php 
 include ("footer.php");
 
+ $data = date('Y'); // Pega ano atual
+
+ $query = "SELECT classificacao, count(*) as "
+
 ?>
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript" src="js/loader.js"></script>
     <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
@@ -40,7 +45,7 @@ include ("footer.php");
         ]);
 
         var options = {
-          title: 'Gráfico de Eventos PREAC',
+          title: 'Gráfico de Eventos PREAC do ANO: <?php print $data; ?>',
           is3D: true,
         };
 
